@@ -1,0 +1,30 @@
+name: sqflite_food_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+  sqflite: ^2.0.3+1
+  flutter_screenutil: ^5.9.0
+  image_picker: ^1.0.7
+  # xfile: ^2.0.0
+  palette_generator: ^0.3.0
+
+
+dev_dependencies: 
+  flutter_lints: ^3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+   - assets/food.png
+
